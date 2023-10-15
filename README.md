@@ -38,7 +38,7 @@ Agora vamos calcular:
 - Total de Funcionários por Área.
 
 ### :white_check_mark: Load
- Salvando os dados transformados em um novo arquivo CSV e gerando gráficos usando a biblioteca `Matplotlib`.
+ Salvando os dados transformados em um novo arquivo Word e gerando gráficos usando a biblioteca `Matplotlib`.
  
 
 ## :battery: Stacks Utilizadas

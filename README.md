@@ -24,21 +24,22 @@ Em seguida, fiz as transformações  para fazer cálculos para os Indicadores de
 
 ## :technologist: Etapas do Pipeline de ETL
 ### :white_check_mark: Extract
-Nesta etapa vamos extrair os dados de vendas dos seguintes arquivos:  `dados-venda.csv`. 
-Este arquivo traz informações referentes ao ano de 2019 considerando o período de janeiro a agosto. As colunas contidas no arquivo são as seguintes: `Produto`, `Data`, `Quantidade` e `Valor`.
+Nesta etapa vamos extrair os dados usando a biblioteca Pandas para os seguintes arquivos:  `CadastroClientes.csv` , `CadastroFuncionarios.csv` ,`BaseServiçosPrestados.xlsx`. 
+Estes arquivos contem dados para fazer os cálculos do desempenho anual da empresa.
 
 
 ### :white_check_mark: Transform
 Agora vamos calcular:
 - Valor Total da Folha Salarial: Total de gastos com salários de funcionários pela empresa (salário + benefícios + impostos);
 - Faturamento da Empresa;
+- Faturamento Médio Mensal;
 - Percentual de Funcionários que Já Fechou Contrato;
 - Total de Contratos que Cada Área da Empresa já Fechou;
-- Total de Funcionários por Área;
-- Faturamento Médio Mensal.
+- Total de Funcionários por Área.
 
 ### :white_check_mark: Load
- Salvando os dados transformados em um novo arquivo CSV e gerando gráficos usando a biblioteca `Matplotlib`
+ Salvando os dados transformados em um novo arquivo CSV e gerando gráficos usando a biblioteca `Matplotlib`.
+ 
 
 ## :battery: Stacks utilizadas
 ![VSCODE](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)

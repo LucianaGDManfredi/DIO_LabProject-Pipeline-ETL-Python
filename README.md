@@ -41,13 +41,13 @@ Agora vamos calcular:
  Salvando os dados transformados em um novo arquivo CSV e gerando gráficos usando a biblioteca `Matplotlib`.
  
 
-## :battery: Stacks utilizadas
+## :battery: Stacks Utilizadas
 ![VSCODE](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
 ![PYTHON](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
 ![GIT](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=Git&logoColor=white)
 ![GOOGLE COLAB](https://img.shields.io/badge/Google%20Colab-F9AB00.svg?style=for-the-badge&logo=Google-Colab&logoColor=white)
 
 ## :notebook_with_decorative_cover:	 Notebook do meu projeto no Google Colab
-<a target="_blank" href="https://colab.research.google.com/github/walterowisk/DIO_LabProject-Pipeline-ETL-Python/blob/main/DIO_LabProject_Pipeline_ETL_Analisando_Dados_de_Venda.ipynb">
+<a target="_blank" href="https://colab.research.google.com/drive/15eG3-VMR0C5ha13MRfytce_Jg8-dhDrm?usp=sharing">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>

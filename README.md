@@ -19,26 +19,28 @@ Supondo que sou a Cientista de Dados de uma empresa de prestações de serviços
 - CadastroClientes;
 - BaseServiçosPrestados.
 
-Em seguida, fiz as transformações  para fazer cálculos como:
-- Valor Total da Folha Salarial;
+Em seguida, fiz as transformações  para fazer cálculos para os Indicadores de Performance para a empresa (KPIs).
+
+
+## :technologist: Etapas do Pipeline de ETL
+### :white_check_mark: Extract
+Nesta etapa vamos extrair os dados de vendas dos seguintes arquivos:  `dados-venda.csv`. 
+Este arquivo traz informações referentes ao ano de 2019 considerando o período de janeiro a agosto. As colunas contidas no arquivo são as seguintes: `Produto`, `Data`, `Quantidade` e `Valor`.
+
+
+### :white_check_mark: Transform
+Agora vamos calcular:
+- Valor Total da Folha Salarial: Total de gastos com salários de funcionários pela empresa (salário + benefícios + impostos);
 - Faturamento da Empresa;
 - Percentual de Funcionários que Já Fechou Contrato;
 - Total de Contratos que Cada Área da Empresa já Fechou;
 - Total de Funcionários por Área;
 - Faturamento Médio Mensal.
 
-## :technologist: Etapas do Pipeline de ETL
-### :white_check_mark: Extract
-Nesta etapa vamos extrair os dados de vendas do arquivo `dados-venda.csv`. 
-Este arquivo traz informações referentes ao ano de 2019 considerando o período de janeiro a agosto. As colunas contidas no arquivo são as seguintes: `Produto`, `Data`, `Quantidade` e `Valor`.
-
-### :white_check_mark: Transform
-Agora vamos calcular o total de vendas por produto e por mês.
-
 ### :white_check_mark: Load
- Salvando os dados transformados em um novo arquivo CSV e gerando gráfico de barras e de linha usando a biblioteca `Matplotlib`
+ Salvando os dados transformados em um novo arquivo CSV e gerando gráficos usando a biblioteca `Matplotlib`
 
-## :battery: Stack utilizada
+## :battery: Stacks utilizadas
 ![VSCODE](https://img.shields.io/badge/Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
 ![PYTHON](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=Python&logoColor=white)
 ![GIT](https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=Git&logoColor=white)
